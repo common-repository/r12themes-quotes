@@ -1,0 +1,17 @@
+/*
+ * some styling for the admin part of the plugin.
+ */
+
+#menu-posts-quote .wp-menu-image {
+  background: none;
+  background-image: url(../quotes-icon.png);
+  background-position: 7px -132px !important;
+  background-repeat: no-repeat;
+}
+#menu-posts-quote.wp-menu-open .wp-menu-image,
+#menu-posts-quote:hover .wp-menu-image {
+  background-position: 7px -164px !important;
+}
+#icon-edit.icon32-posts-quote {
+  background: transparent url(../quotes-icon.png) no-repeat left top;
+}
